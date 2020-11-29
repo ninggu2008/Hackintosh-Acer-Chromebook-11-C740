@@ -8,24 +8,25 @@ Files and notes to get MacOS running on a Acer Chromebook 11 C740
 - MrChromebox coreboot: 4.12		
 
 - OpenCore: 0.6.3		
-
-- Disclaimer: This is not meant to be a thorough guide or walkthrough. It is merely a dump of files and notes to get MacOS working on a Acer Chromebook 11 C740. I will try to keep this updated as I update my Chromebook to future MacOS releases. It's not guaranteed to work on your specific device. If it doesn't, you likely need to make some sort of changes to the supplied config.plist. I do not know what those changes may be. I am not responsible for any damage done or data lost by attempting this.		
-
+#
+### Disclaimer: 
+This is not meant to be a thorough guide or walkthrough. It is merely a dump of files and notes to get MacOS working on a Acer Chromebook 11 C740. I will try to keep this updated as I update my Chromebook to future MacOS releases. It's not guaranteed to work on your specific device. If it doesn't, you likely need to make some sort of changes to the supplied config.plist. I do not know what those changes may be. I am not responsible for any damage done or data lost by attempting this.		
+#
 - Update 11/29/2020
 
 - OpenCore 0.6.3		
 - Confirm Big Sur official release compatibility		
-## Requirements:		
+### Requirements:		
 
 - Core i3 or Core i5 processor		
 - MrChromebox's coreboot firmware 4.12		
 - OpenCore 0.6.3		
 - Minimum of a 32GB SSD		
 - Minimum 64GB recommended		
-- Origin WiFi&Bluetooth card AC3160（https://github.com/OpenIntelWireless/itlwm）		
+- Origin WiFi&Bluetooth card AC3160  https://github.com/OpenIntelWireless/itlwm		
 - MacOS installer flash drive		
 - See the guides linked in Basic Installation Steps below		
-## Notes:
+### Notes:
 - Most top row keys are mapped with the custom VoodooPS2Controller.kext		
 - Back arrow key = Previous track		
 - Forward arrow key = Next track		
@@ -35,7 +36,7 @@ Files and notes to get MacOS running on a Acer Chromebook 11 C740
 - Mute key = Mute		
 - Volume down key = Volume down		
 - Volume up key = Volume up		
-## What's Working:		
+### What's Working:		
 
 - Just about everything!		
 - Graphics（HDMI with Audio out）		
@@ -48,7 +49,7 @@ Files and notes to get MacOS running on a Acer Chromebook 11 C740
 - Sleep		
 - etc……		
 
-## What's Not Working:
+### What's Not Working:
 
 - Most DRM does not work. This means no Apple TV shows, Hulu, Netflix (in Safari), Amazon Prime streaming, etc.
 This isn't specific to the Dell CB13. DRM simply does not work on an iGPU only Hackintosh			
@@ -62,7 +63,7 @@ This isn't specific to the Dell CB13. DRM simply does not work on an iGPU only H
 - I strongly suggest becoming familiar with Hackintoshing before jumping into this. Know the downsides, shortcomings, and difficulties. Read through the dortania guide, poke around on r/hackintosh, have a look around InsanelyMac and TonyMacX86 (even though their tools aren't used here, they still have a lot of useful information), and do some general web searches. Even if a lot of it doesn't make sense, just reading through it and becoming familiar with terms will be helpful!
 - Updates to MacOS, OpenCore, or firmware may break your installation! I will likely be keeping my device up to date so check back here before doing any MacOS, OpenCore, or firmware updates! The latest confirmed working versions will always be at the top of the this page.
 - Don't let this section scare you off! Once MacOS is up and running on your system, it is very stable!		
-## Basic Installation Steps		
+### Basic Installation Steps		
 
 - Install/update MrChromebox coreboot firmware if you haven't already		
 - Create a MacOS installer flash drive		
@@ -76,7 +77,7 @@ This isn't specific to the Dell CB13. DRM simply does not work on an iGPU only H
 - Boot into MacOS using your installer flash drive and copy the EFI folder from you installer flash drive to the EFI partition of your internal SSD - you can - - - mount the EFI partition with MountEFI		
 - More info can be found here		
 - Follow the post install steps below		
-## Post-Install		
+### Post-Install		
 
 - Disable force click in trackpad settings		
 - Disable hibernate with "sudo pmset -a hibernatemode 0"		
