@@ -4,8 +4,11 @@ Files and notes to get MacOS running on a Acer Chromebook 11 C740
 Confirmed working on:
 
 MacOS: Big Sur 11.0.1		
+
 MrChromebox coreboot: 4.12		
+
 OpenCore: 0.6.3		
+
 Disclaimer: This is not meant to be a thorough guide or walkthrough. It is merely a dump of files and notes to get MacOS working on a Acer Chromebook 11 C740. I will try to keep this updated as I update my Chromebook to future MacOS releases. It's not guaranteed to work on your specific device. If it doesn't, you likely need to make some sort of changes to the supplied config.plist. I do not know what those changes may be. I am not responsible for any damage done or data lost by attempting this.		
 
 Update 11/29/2020
