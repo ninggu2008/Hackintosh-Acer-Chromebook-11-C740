@@ -3,7 +3,7 @@ Files and notes to get MacOS running on a Acer Chromebook 11 C740
 
 ### Confirmed working on:
 
-- MacOS: Big Sur 11.0.1		
+- MacOS: Big Sur 11.0.1	& 11.1	
 
 - MrChromebox coreboot: 4.12		
 
